@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -15,21 +18,48 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+	<main>
+		<section>
+				<div class="card-pattern">
+					<!-- here goes the CSS background picture -->
+				</div>
+			
+				
+				<div class="user">
+				<div class="profile-picture">
+					<img src="./images/image-victor.jpg" alt"profile image of victor" width="96px" height="96px">
+				</div>
+					<h1 class="user-name">Victor Crest <span class="user-age">26</span></h1>
+					<p class="user-city">London</p>
+				</div>
+			</div>
+			<div class="stats-container">
+				<div class="followers">
+					<div class="followers-number">80K</div><br>
+					<div class="followers-text">Followers</div>
+				</div>
+				<div class="stats">
+					<div class="stats-number">803K</div><br>
+					<div class="stats-text">Likes</div>
+				</div>
+				<div class="pictures">
+					<div class="pictures-number">1.4K</div><br>
+					<div class="pictures-text">Photos</div>
+				</div>
+			</div>
+		</section>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+			<div class="circle1">
+				<img src="./images/bg-pattern-top.svg" alt="design element (circle) in the top left corner of the screen">
+			</div>
+			
+			<!-- <div class="circle2"> -->
+				<!-- <img src="./images/bg-pattern-bottom.svg" alt="design element (circle) in the bottom right corner of the screen"> -->
+			<!-- </div> -->
+		
+		  <!-- <div class="attribution"> -->
+		<!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+		<!-- Coded by <a href="#">Your Name Here</a>. -->
+	</main>  
 </body>
 </html>
